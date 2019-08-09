@@ -11,3 +11,33 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+.user-form {
+  width: 50%;
+  margin: 0 auto;
+  color: #6994b7;
+}
+.fields.row {
+  margin: 10px;
+}
+p.error {
+  font-size: 0.9rem;
+  margin: 10px 0px 0px 10px;
+  color: red;
+}
+input {
+  width: 100% !important;
+  border-radius: 10px;
+  padding: 10px;
+}
+.checkbox-container {
+  width: 100%;
+  text-align: center;
+}
+input[type="checkbox"],
+input[type="radio"] {
+  width: 100px !important;
+  margin-left: 10px;
+}
+.btn-light {
+  margin: 0 auto;
+}
