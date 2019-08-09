@@ -44,7 +44,7 @@ const UserForm = ({ errors, touched, values, handeSubmit, status }) => {
       {users.map(users => (
         <p key={users.name}>
           <br />
-          {users.usersname}
+          {users.name}
         </p>
       ))}
     </div>
